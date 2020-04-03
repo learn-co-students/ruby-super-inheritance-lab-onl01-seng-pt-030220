@@ -1,3 +1,4 @@
+require 'pry'
 class ChattyStudent < Student
 
   def hello
@@ -12,3 +13,5 @@ class ChattyStudent < Student
   end
 
 end
+
+binding.pry
